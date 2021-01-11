@@ -14,5 +14,6 @@ python ikeastock.py
 
 # Additional Notes
 Ikea item IDs can be found in the url of the item on the ikea website. It will be the digits at the end of the url. Omit any letters or other characters such as slashes.
+Emails will stop sending when the program is closed.
 
 This tool is desgined for Ikea locations in Canada.
