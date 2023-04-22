@@ -1,5 +1,5 @@
 # Ikea Stock Emailer
-Furniture kept going out of stock at Ikea during the Coronavirus pandemic so I wrote this script to send automated emails on product availability.
+Script to send automated emails on a specified Ikea product's stock.
 
 Emails can only be sent <b>from</b> emails using Outlook SMTP settings (@outlook and @hotmail), but can be sent <b>to</b> any email address.
 
