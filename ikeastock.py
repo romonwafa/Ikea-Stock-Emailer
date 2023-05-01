@@ -2,6 +2,7 @@ import requests
 import re
 import time
 import smtplib, ssl
+from getpass import getpass
 from email.message import EmailMessage
 from datetime import datetime
 
@@ -21,8 +22,8 @@ msg = EmailMessage()
 msg["Subject"] = "Ikea Stock Alert"
 print("Enter your email address: ")
 msg["From"] = input()
-print("Enter your password: ")
-password = input()
+print("Enter your email password: ")
+password = getpass()
 print("Enter the recipient email: ")
 msg["To"] = input()
 print("How often would you like to receive an email update on your item's stock? \n(type a digit in minutes): ")
